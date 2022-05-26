@@ -1,0 +1,7 @@
+{{ cookiecutter.package_import_name }} package
+==============
+
+.. automodule:: {{ cookiecutter.package_import_name }}
+   :members:
+   :undoc-members:
+   :show-inheritance:

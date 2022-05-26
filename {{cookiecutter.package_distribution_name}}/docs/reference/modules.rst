@@ -1,7 +1,7 @@
-imppkg
+{{ cookiecutter.package_import_name }}
 ======
 
 .. toctree::
    :maxdepth: 4
 
-   imppkg
+   {{ cookiecutter.package_import_name }}
