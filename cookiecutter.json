@@ -1,0 +1,14 @@
+{
+    "package_distribution_name": "my-python-package",
+    "package_import_name": [
+        "{{ cookiecutter.package_distribution_name.lower().replace('-', '') }}",
+        "{{ cookiecutter.package_distribution_name.lower().replace('-', '_') }}"
+    ],
+    "package_description": "The {{ cookiecutter.package_distribution_name }} package does amazing things.",
+    "package_license": ["MIT License", "BSD License", "ISC License (ISCL)", "GNU General Public License v3 (GPLv3)", "Apache Software License"],
+    "author_name": "Eric Pederson",
+    "author_email": "ericacm@gmail.com",
+    "_copy_without_render": [
+        ".github/workflows/*"
+    ]
+}
